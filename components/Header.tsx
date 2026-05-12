@@ -11,20 +11,20 @@ export function Header({ user }: { user?: HeaderUser }) {
   return (
     <header className="flex items-center justify-between border-b border-divider bg-background px-6 py-4">
       <Link href="/" className="text-lg font-semibold text-foreground">
-        DD Qualify
+        Core
       </Link>
       <nav className="flex items-center gap-4">
         <Link
           href="/#workflow"
           className="text-sm font-medium text-foreground/70 transition-colors hover:text-foreground"
         >
-          Workflow
+          How It Works
         </Link>
         <Link
           href="/#coverage"
           className="text-sm font-medium text-foreground/70 transition-colors hover:text-foreground"
         >
-          Coverage
+          Features
         </Link>
         <Link
           href="/dashboard"

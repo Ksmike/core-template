@@ -114,7 +114,7 @@ export default function HomePage() {
             {marketing.cta.createWorkspaceCta}
           </Link>
           <a
-            href="mailto:hello@ddqualify.com"
+            href="https://github.com"
             className="rounded-md border border-divider px-5 py-2.5 text-sm font-medium text-foreground transition-colors hover:bg-background"
           >
             {marketing.cta.contactSalesCta}

@@ -2,84 +2,84 @@ import type { MarketingLabels } from "@/labels/types";
 
 export const marketingLabels: MarketingLabels = {
   hero: {
-    badge: "Automated Due Diligence Platform",
-    title: "DD Qualify helps investors underwrite faster with less blind risk.",
+    badge: "Production-Ready Starter Template",
+    title: "Core gives you a full-stack foundation. Fork it, ship it.",
     description:
-      "We combine structured data ingestion, AI-assisted analysis, and analyst-ready reporting so funds and strategic buyers can complete commercial diligence in days instead of weeks.",
-    trialCta: "Start Free Trial",
-    demoCta: "View Live Workspace",
+      "Auth, database, UI components, and deployment — all wired up and ready to go. Stop rebuilding boilerplate and start building your product.",
+    trialCta: "Get Started",
+    demoCta: "View Demo",
     segmentLabels: [
-      "VC",
-      "Growth Equity",
-      "M&A",
-      "Commercial DD",
-      "Financial DD",
-      "Compliance DD",
+      "Next.js 16",
+      "Prisma 7",
+      "Auth.js",
+      "HeroUI",
+      "Tailwind v4",
+      "Vercel",
     ],
   },
   metrics: [
-    { label: "Deals screened per month", value: "240+" },
-    { label: "Median first-pass report", value: "36 hours" },
-    { label: "Manual analyst effort reduced", value: "92%" },
+    { label: "Setup time", value: "< 5 min" },
+    { label: "Test coverage out of the box", value: "90%+" },
+    { label: "Boilerplate you skip writing", value: "100%" },
   ],
   workflow: {
-    heading: "How DD Qualify works",
+    heading: "How Core works",
     steps: [
       {
-        title: "Collect",
+        title: "Fork",
         description:
-          "Connect data rooms, cap-table exports, accounting systems, and policy docs in one intake flow.",
+          "Clone the repo, install dependencies, and you have a running app with auth, database, and UI in minutes.",
       },
       {
-        title: "Analyze",
+        title: "Customize",
         description:
-          "Run automated checks across legal, financial, and operational risk domains with explainable scoring.",
+          "Swap in your brand, add your models, and build features on top of a proven architecture.",
       },
       {
-        title: "Decide",
+        title: "Ship",
         description:
-          "Get an executive summary, red-flag queue, and audit-ready workpapers your IC can review immediately.",
+          "Deploy to Vercel with zero config. Neon Postgres, Auth.js sessions, and HTTPS all work out of the box.",
       },
     ],
   },
   coverage: {
-    heading: "Risk coverage teams trust",
+    heading: "Everything you need, nothing you don't",
     description:
-      "Built for pre-investment and post-close reviews across venture, growth equity, and M&A teams.",
+      "Built for developers who want a clean starting point without the overhead of a heavyweight framework.",
     items: [
-      "Corporate and contract compliance",
-      "Revenue quality and concentration risk",
-      "Unit economics and burn-rate stability",
-      "Security posture and vendor dependencies",
-      "KYC / AML, sanctions, and jurisdiction checks",
-      "Board governance and policy completeness",
+      "Email/password auth with extensible OAuth support",
+      "Prisma 7 multi-file schema with Neon Postgres",
+      "Type-safe labels and localization system",
+      "HeroUI component library with semantic theming",
+      "Vitest test suite with 90%+ coverage",
+      "Role-based layouts and protected routes",
     ],
-    outcomesTitle: "Pilot portfolio outcomes",
+    outcomesTitle: "Why teams choose Core",
     outcomesParagraphs: [
-      "Teams using DD Qualify in pilot reduced kickoff-to-investment-committee cycle time by an average of 11 days while increasing issue detection before signing.",
-      "Typical users include diligence leads, deal teams, operating partners, and legal counsel collaborating from a single evidence trail.",
+      "Core eliminates the first two weeks of every new project — no more wiring up auth, configuring databases, or debating folder structure.",
+      "Ideal for solo developers, agencies, and teams who want to move fast without sacrificing code quality or best practices.",
     ],
   },
   taxonomy: {
-    heading: "Built-in deal labels",
+    heading: "Built-in stack",
     description:
-      "Standardized labels are attached to every diligence workspace so teams can filter risks, route reviewers, and keep reporting consistent.",
+      "Every piece of the stack is chosen for production readiness, developer experience, and long-term maintainability.",
     items: [
-      "Data Quality",
-      "Legal Risk",
-      "Financial Anomaly",
-      "Concentration Risk",
-      "Cyber / InfoSec",
-      "Regulatory",
+      "App Router",
+      "Server Actions",
+      "Edge Runtime",
+      "Multi-file Prisma",
+      "Semantic Tokens",
+      "Dark Mode",
     ],
   },
   cta: {
-    heading: "Ready to automate your next diligence cycle?",
+    heading: "Ready to build something?",
     description:
-      "Launch a workspace in minutes, invite your deal team, and generate a structured red-flag report before your next partner meeting.",
-    createWorkspaceCta: "Create Workspace",
-    contactSalesCta: "Contact Sales",
+      "Fork Core, customize it for your use case, and deploy in minutes. No lock-in, no hidden complexity.",
+    createWorkspaceCta: "Fork on GitHub",
+    contactSalesCta: "Read the Docs",
     footnote:
-      "Enterprise-ready API, SOC 2 roadmap, and role-based permissions available.",
+      "MIT licensed. Use it for personal projects, client work, or SaaS products.",
   },
 };

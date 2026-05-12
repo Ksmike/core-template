@@ -13,9 +13,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "DD Qualify",
+  title: "Core",
   description:
-    "DD Qualify automates private-market due diligence with structured risk analysis and faster investment reporting.",
+    "Core is a production-ready Next.js template with auth, database, and UI — fork it and start building.",
 };
 
 export default function RootLayout({

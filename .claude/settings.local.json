@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(curl -ks https://localhost:3010/app/commerce)"
+    ]
+  }
+}
